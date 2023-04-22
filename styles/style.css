@@ -37,18 +37,18 @@ header b{
     margin-top: auto;
     margin-bottom: auto;
     font-size: 25px;
-    font-family: var(--heading-font);
+    font-family: "Montserrat";
     color: white;
 }
 .semi-title{
     font-size: 25px;
-    font-family: var(--paragraph-font);
+    font-family: Roboto Mono, Helvetica, sans-serif;
     text-shadow: 2px 4px 4px black;
     border-bottom: 2px solid black;
 }
 ul{
     font-size: 15px;
-    font-family: var(--paragraph-font);
+    font-family: Roboto Mono, Helvetica, sans-serif;
     border-bottom: 2px solid black;
 }
 .note{
@@ -57,7 +57,7 @@ ul{
 footer p{
     font-size: 15px;
     padding: 25px 50px;
-    font-family: var(--paragraph-font);
+    font-family: Roboto Mono, Helvetica, sans-serif;
     display: flex;
     justify-content: space-around;
     align-items: center;
