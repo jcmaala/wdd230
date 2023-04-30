@@ -1,0 +1,28 @@
+@media only screen and (min-width: 640px) {
+    header h1, h2{
+        font-size: 34px;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 20px 1fr 20px 20px 20px 1fr 20px;
+        grid-template-rows: 20px 1fr 20px 1fr 20px;
+    }
+    .repetition{
+        grid-column: 2/4;
+        grid-row: 2/3;
+    }
+    .rulethirds{
+        grid-column: 5/7;
+        grid-row: 2/3;
+    }
+    .contrast{
+        grid-column: 2/7;
+        grid-row: 4/5;   
+    }
+    .reptitle, .ruletitle, .contrasttitle{
+        font-size: 20px; 
+    }
+    main p, a{
+        font-size: 20px;
+    }
+}
