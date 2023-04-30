@@ -1,0 +1,18 @@
+@media only screen and (min-width: 32.5em){
+    header b{
+        font-size: 25px;
+    }
+    .semi-title{
+        font-size: 25px;
+    }
+    header{
+        border-radius: 20px;
+    }
+    footer p{
+        border-radius: 25px;
+    }
+    .image{
+        border-radius: 10%;
+        box-shadow: 0 0 2px 2px black;
+    }
+}
