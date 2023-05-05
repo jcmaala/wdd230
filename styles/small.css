@@ -23,7 +23,7 @@ header{
     opacity: 0.9;
     box-shadow: 0 0 10px 10px gray;
 }
-header b{
+header a{
     text-align: justify;
     justify-content: space-around;
     margin-top: auto;
