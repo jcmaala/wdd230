@@ -25,12 +25,14 @@ body {
 img {
   display: block;
   margin: 0 auto;
+  grid-column: 2/3;
 }
 h2, h3, h4{
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
   text-align: justify;
   font-size: 20px;
+  grid-column: 2/3;
 }
 h2{
   font-size: 20px;
@@ -54,17 +56,23 @@ header > h1{
   font-size: 40px;
   font-family: var(--heading-font);
 }
+main{
+  display: grid;
+  grid-template-columns: 20px 1fr 20px;
+}
 
 p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color);
   padding: 1em;
+  grid-column: 2/3;
 }
 .colors {
   width: 100%;
   min-width: 350px;
   margin: 30px auto;
   text-align: center;
+  grid-column: 2/3;
 }
 .colors th {
   background-color: #999;
@@ -132,7 +140,7 @@ footer {
 .heading-sample{
     font-family: var(--heading-font);
 }
-
-main li{
+main ul{
     font-family: var(--paragraph-font);
+    grid-column: 2/3;
 }
