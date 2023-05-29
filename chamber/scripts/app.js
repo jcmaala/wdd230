@@ -2,6 +2,8 @@ const date = new Date();
 const todayDate = document.querySelector(".Date");
 const todayCopy = document.querySelector(".CopyrightYear");
 const headDateAssign = document.querySelector(".header-date");
+const navButton = document.querySelector('#navButton');
+const navigation = document.querySelector('.navigation');
 
 const headDate = new Intl.DateTimeFormat("en-UK", {
 	dateStyle: "full"
@@ -23,8 +25,12 @@ printingDateTime();
 
 function printCopyRightYear(){
     const year = date.getFullYear();
-    const theYear = "&#169; year | Jean Clyde Maala | Philippines";
+    const theYear = "&#169; year JC Chamber of Commerce | Jean Clyde Maala | WDD 23O Project";
     const newYear = theYear.replace(/year/g, year);
     todayCopy.innerHTML = newYear;
 }
 printCopyRightYear();
+
+navButton.addEventListener('click', () => {
+	navigation.classList.toggle('responsive');
+});

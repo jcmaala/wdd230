@@ -1,0 +1,261 @@
+@media only screen and (min-width: 779px){
+    nav{
+        display: flex;
+        justify-content: space-around;
+        max-width: 700px;
+        margin: 10px auto;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    #navButton{
+        display: block;
+        top: 10px;
+        right: 10px;
+        width: fit-content;
+        height: 50px;
+        font-size: 1.5rem;
+        padding: .5rem;
+        color: navy;
+        grid-column: 1/2;
+        margin-top: 15px;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding-left: 0;
+    }
+    .navigation li {
+        display: none;
+    }
+    .navigation li a {
+        padding: 1.15rem;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+    }
+    .navigation li a:hover {
+        background-color: var(--accent2-color);
+        color: black;
+        font-weight: 700;
+    }
+    .navigation.responsive li {
+        display: block;
+        width: 100%;
+    }
+    .navigation.responsive li a {
+        display: block;
+    }
+    .home-grid{
+        display: grid;
+        grid-template-columns: 10px 1fr 10px 250px 10px;
+        grid-template-rows: 10px 300px 10px 300px 10px 300px 10px 300px 10px 300px 10px 300px 10px 300px 10px 115px 10px 300px 10px;
+    }
+    #hero-card{
+        grid-column: 2/5;
+        grid-row: 2/3;
+    }
+    #hero-msg{
+        grid-column: 2/5;
+        grid-row: 2/3;
+    }
+    .button-box{
+        grid-column: 2/5;
+        grid-row: 2/5;
+    }
+    #newsrel-card{
+        grid-column: 2/5;
+        grid-row: 4/5;
+    }
+    #highlight-card{
+        grid-column: 2/5;
+        grid-row: 6/17;
+        background-color: var(--accent2-color);
+    }
+    #event-card{
+        grid-column: 2/3;
+        grid-row: 18/19;
+    }
+    #weather-card{
+        grid-column: 4/5;
+        grid-row: 18/19;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 10px 250px 10px;
+    }
+    #logo_link{
+        padding-top: 5px;
+        padding-top: 5px;
+        justify-self: left;
+        grid-column: 2/3;
+    }
+    #logo_link_footer{
+        grid-column: 1/2;
+        width: 100%;
+    }
+    .contact-address{
+        grid-column: 2/4;
+        grid-row: 2/3;
+        text-align: left;
+    }
+    .contact-info{
+        grid-column: 4/6;
+        grid-row: 2/3;
+        text-align: center;
+    }
+    .CopyrightYear{
+        grid-column: 1/4;
+        grid-row: 3/4;
+        text-align: center;
+        font-size: 14px;
+        margin-left: 28px;
+    }
+    .Date{
+        grid-column: 4/6;
+        grid-row: 3/4;
+        text-align: left;
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    footer{
+        padding-top: 15px;
+    }
+    .social img{
+        border-radius: 50%;
+        width: 45px;
+        height: 45px;
+    }
+}@media only screen and (min-width: 779px){
+    nav{
+        display: flex;
+        justify-content: space-around;
+        max-width: 700px;
+        margin: 10px auto;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    #navButton{
+        display: block;
+        top: 10px;
+        right: 10px;
+        width: fit-content;
+        height: 50px;
+        font-size: 1.5rem;
+        padding: .5rem;
+        color: navy;
+        grid-column: 1/2;
+        margin-top: 15px;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding-left: 0;
+    }
+    .navigation li {
+        display: none;
+    }
+    .navigation li a {
+        padding: 1.15rem;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+    }
+    .navigation li a:hover {
+        background-color: var(--accent2-color);
+        color: black;
+        font-weight: 700;
+    }
+    .navigation.responsive li {
+        display: block;
+        width: 100%;
+    }
+    .navigation.responsive li a {
+        display: block;
+    }
+    .home-grid{
+        display: grid;
+        grid-template-columns: 10px 1fr 10px 250px 10px;
+        grid-template-rows: 10px 300px 10px 300px 10px 300px 10px 300px 10px 300px 10px 300px 10px 300px 10px 115px 10px 300px 10px;
+    }
+    #hero-card{
+        grid-column: 2/5;
+        grid-row: 2/3;
+    }
+    #hero-msg{
+        grid-column: 2/5;
+        grid-row: 2/3;
+    }
+    .button-box{
+        grid-column: 2/5;
+        grid-row: 2/5;
+    }
+    #newsrel-card{
+        grid-column: 2/5;
+        grid-row: 4/5;
+    }
+    #highlight-card{
+        grid-column: 2/5;
+        grid-row: 6/17;
+        background-color: var(--accent2-color);
+    }
+    #event-card{
+        grid-column: 2/3;
+        grid-row: 18/19;
+    }
+    #weather-card{
+        grid-column: 4/5;
+        grid-row: 18/19;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 10px 250px 10px;
+    }
+    #logo_link{
+        padding-top: 5px;
+        padding-top: 5px;
+        justify-self: left;
+        grid-column: 2/3;
+    }
+    #logo_link_footer{
+        grid-column: 1/2;
+        width: 100%;
+    }
+    .contact-address{
+        grid-column: 2/4;
+        grid-row: 2/3;
+        text-align: left;
+    }
+    .contact-info{
+        grid-column: 4/6;
+        grid-row: 2/3;
+        text-align: center;
+    }
+    .CopyrightYear{
+        grid-column: 1/4;
+        grid-row: 3/4;
+        text-align: center;
+        font-size: 14px;
+        margin-left: 28px;
+    }
+    .Date{
+        grid-column: 4/6;
+        grid-row: 3/4;
+        text-align: left;
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    footer{
+        padding-top: 15px;
+    }
+    .social img{
+        border-radius: 50%;
+        width: 45px;
+        height: 45px;
+    }
+}

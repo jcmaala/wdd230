@@ -1,0 +1,143 @@
+@media only screen and (min-width: 1024px) {
+	h1 {
+		font-size: 2.5rem
+	}
+    nav{
+        grid-column: 4/5;
+        grid-row: 1/2;
+    }
+	#navButton {
+		display: none;
+	} 
+	.navigation {
+		flex-direction: row;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 auto;
+	}
+    #site-name{
+        font-size: 1em;
+    }
+    .logo{
+        padding-top: 5px;
+    }
+    .social{
+        text-align: center;
+        padding-top: 18px;
+    }
+    .social img{
+        border-radius: 50%;
+        width: 55px;
+        height: 55px;
+    }
+    .home-grid{
+        display: grid;
+        grid-template-columns: 10px 250px 10px 1fr 10px 250px 10px;
+        grid-template-rows: 10px 300px 10px 300px 10px 300px 10px ;
+    }
+    #hero-msg{
+        font-size: 3em;
+        grid-column: 4/5;
+        grid-row: 2/3;
+        margin-top: 50px;
+    }
+    #hero-card{
+        grid-column: 4/5;
+        grid-row: 2/5;
+    }
+    #hero-box{
+        grid-column: 1/4;
+        grid-row: 1/3;
+    }
+    #event-card{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        background-color: var(--accent2-color);
+        justify-content: center;
+    }
+    #hero-card{
+        grid-row: 2/5;
+    }
+    #hero-card h2{
+        grid-column: 4/5;
+        grid-row: 2/3;
+        margin-top: 100px;
+    }
+    .button-box{
+        text-align: center;
+        grid-column: 4/5;
+        grid-row: 4/5;
+        margin-top: 100px;
+    }
+    .button-box1{
+        text-align: center;
+        grid-column: 2/3;
+        grid-row: 6/7;
+        margin-top: 30px;
+    }
+    #highlight-card{
+        grid-column: 6/7;
+        grid-row: 2/7;
+        background-color: var(--accent2-color);
+    }
+    #weather-card{
+        grid-column: 2/3;
+        grid-row: 4/5;
+        background-color: var(--accent2-color);
+        text-align: center;
+    }
+    #join-card{
+        grid-column: 2/3;
+        grid-row: 6/7;
+        background-color: var(--accent2-color);
+        z-index: 0;
+    }
+    #newsrel-card{
+        grid-column: 4/5;
+        grid-row: 6/7;
+        background-color: var(--accent2-color);
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 10px 250px 10px;
+    }
+    #logo_link{
+        padding-top: 5px;
+        padding-top: 5px;
+        justify-self: left;
+        grid-column: 2/3;
+    }
+    #logo_link_footer{
+        grid-column: 1/2;
+        width: 100%;
+    }
+    .contact-address{
+        grid-column: 2/4;
+        grid-row: 2/3;
+        text-align: left;
+    }
+    .contact-info{
+        grid-column: 4/6;
+        grid-row: 2/3;
+        text-align: center;
+    }
+    .CopyrightYear{
+        grid-column: 1/4;
+        grid-row: 3/4;
+        text-align: center;
+        font-size: 14px;
+        margin-left: 28px;
+    }
+    .Date{
+        grid-column: 4/6;
+        grid-row: 3/4;
+        text-align: left;
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    footer{
+        padding-top: 15px;
+    }
+}
