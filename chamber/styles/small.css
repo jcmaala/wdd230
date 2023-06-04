@@ -50,7 +50,7 @@ body{
 header{
     background-color: var(--primary-color);
     display: grid;
-    grid-template-columns: auto 150px 300px auto auto;
+    grid-template-columns: auto auto auto auto auto;
     opacity: 0.9;
 }
 nav{
@@ -77,14 +77,17 @@ nav{
 	display: flex;
 	flex-direction: column;
 	list-style: none;
-    padding-left: 0;
+    padding-left: 55px;
+    position: fixed;
+    grid-row: 2/3;
+    background-color: var(--primary-color);
 }
 .navigation li {
 	display: none;
 }
 .navigation li a {
 	padding: 1.15rem;
-	display: block;
+	display: flex;
 	text-align: center;
 	text-decoration: none;
 	color: #fff;
@@ -236,6 +239,12 @@ footer a{
     grid-column: 2/3;
     grid-row: 2/3;
     text-align: center;
+}
+#map{
+    color: white;
+}
+#map:hover{
+    color: yellow;
 }
 .contact-address{
     grid-column: 2/3;
