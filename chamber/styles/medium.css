@@ -1,4 +1,4 @@
-@media only screen and (min-width: 779px){
+@media only screen and (min-width: 502px){
     nav{
         display: flex;
         justify-content: space-around;
@@ -23,7 +23,6 @@
         display: flex;
         flex-direction: column;
         list-style: none;
-        padding-left: 0;
     }
     .navigation li {
         display: none;
@@ -49,8 +48,8 @@
     }
     .home-grid{
         display: grid;
-        grid-template-columns: 10px 1fr 10px 250px 10px;
-        grid-template-rows: 10px 300px 10px 300px 10px 300px 10px 300px 10px 300px 10px 300px 10px 300px 10px 115px 10px 300px 10px;
+        grid-template-columns: 10px auto 10px 250px 10px;
+        grid-template-rows: 10px 300px 10px 300px 10px 345px 10px 300px 10px;
     }
     #hero-card{
         grid-column: 2/5;
@@ -69,22 +68,54 @@
         grid-row: 4/5;
     }
     #highlight-card{
+        grid-row: 6/7;
         grid-column: 2/5;
-        grid-row: 6/17;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        background-color: var(--accent1-color);
+    }
+    .highlight1, .highlight2{
         background-color: var(--accent2-color);
+    }
+    .highlight3{
+        z-index: -1;
+        grid-row: 8/9;
+        border: var(--accent1-color);
+        background-color: var(--accent1-color);
+        color: var(--accent1-color);
+    }
+    .home-grid h2{
+        text-shadow: none;
     }
     #event-card{
         grid-column: 2/3;
-        grid-row: 18/19;
+        grid-row: 8/9;
+        z-index: 1;
+    }
+    #event-card h2{
+        text-shadow: 2px 1px black;;
     }
     #weather-card{
         grid-column: 4/5;
-        grid-row: 18/19;
+        grid-row: 8/9;
+    }
+    #weather-card h2{
+        text-shadow: 2px 1px black;
+    }
+    #newsrel-card h2{
+        text-shadow: 2px 1px black;
+    }
+    .highlight1 h2{
+        text-shadow: 2px 1px black;
+    }
+    .highlight2 h2{
+        text-shadow: 2px 1px black;
     }
     footer{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 10px 250px 10px;
+        padding-left: 25px;
     }
     #logo_link{
         padding-top: 5px;
