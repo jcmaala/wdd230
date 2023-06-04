@@ -36,8 +36,8 @@ nav a{
 }
 .social img{
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
 main section{
     text-align: center;
@@ -65,7 +65,7 @@ nav{
 	display: block;
 	top: 10px;
 	right: 10px;
-	width: fit-content;
+	width: 100%;
     height: 50px;
 	font-size: 1.5rem;
 	padding: .5rem;
@@ -139,7 +139,7 @@ footer a{
 }
 .logo{
     grid-column: 2/3;
-    width: 150px;
+    width: 100%;
     padding-top: 0;
 }
 .home-grid h2, .home-grid h3, .home-grid p{
@@ -218,9 +218,10 @@ footer a{
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 25px;
+    margin-right: 25px;
     font-family: var(--heading-font);
     color: white;
-    font-size: 1em;
+    font-size: 10px;
 }
 .header-date-background{
     grid-row: 2;
