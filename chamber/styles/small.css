@@ -322,6 +322,59 @@ main section img{
     text-align: center;
     z-index: -1;
 }
+.discover-grid{
+    display: grid;
+    grid-template-columns: 10px 1fr 10px;
+    grid-template-rows: 10px 100px 10px 550px 10px 550px 10px 550px 10px 550px 10px 550px 10px;
+}
+#discover-head{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+    background-color: var(--accent2-color);
+    font-family: var(--heading-font);
+    text-shadow: 1px 2px gray;
+}
+#elevation-card{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    text-align: center;
+    background-color: var(--accent2-color);
+}
+#elevation-card img, #population-card img, #economy-card img, #education-card img{
+    width: 60%;
+    height: 45%;
+    align-self: center;
+    align-content: center;
+}
+#elevation-card h1, #population-card h1, #economy-card h1, #education-card h1{
+    font-size: 1.5em;
+    font-family: var(--heading-font);
+}
+#elevation-card p, #population-card p, #economy-card p, #education-card p{
+    font-family: var(--paragraph-font);
+    justify-self: normal;
+}
+#population-card{
+    grid-column: 2/3;
+    grid-row: 6/7;
+    text-align: center;
+    background-color: var(--accent2-color);
+}
+#economy-card{
+    grid-column: 2/3;
+    grid-row: 8/9;
+    text-align: center;
+    background-color: var(--accent2-color);
+}
+#education-card{
+    grid-column: 2/3;
+    grid-row: 10/11;
+    text-align: center;
+    background-color: var(--accent2-color);
+}
+
+
 
 
 
