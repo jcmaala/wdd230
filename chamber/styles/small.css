@@ -46,6 +46,7 @@ body{
     background-color: var(--accent1-color);
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 header{
     background-color: var(--primary-color);
@@ -77,8 +78,7 @@ nav{
 	display: flex;
 	flex-direction: column;
 	list-style: none;
-    padding-left: 55px;
-    position: fixed;
+    padding-left: 0;
     grid-row: 2/3;
     background-color: var(--primary-color);
 }
@@ -341,17 +341,18 @@ main section img{
     text-align: center;
     background-color: var(--accent2-color);
 }
-#elevation-card img, #population-card img, #economy-card img, #education-card img{
+#elevation-card img, #population-card img, #economy-card img, #education-card img, #livelihood-card img{
     width: 60%;
     height: 45%;
     align-self: center;
     align-content: center;
+    object-fit: cover;
 }
-#elevation-card h1, #population-card h1, #economy-card h1, #education-card h1{
+#elevation-card h1, #population-card h1, #economy-card h1, #education-card h1, #livelihood-card h1{
     font-size: 1.5em;
     font-family: var(--heading-font);
 }
-#elevation-card p, #population-card p, #economy-card p, #education-card p{
+#elevation-card p, #population-card p, #economy-card p, #education-card p, #livelihood-card p{
     font-family: var(--paragraph-font);
     justify-self: normal;
 }
@@ -370,6 +371,12 @@ main section img{
 #education-card{
     grid-column: 2/3;
     grid-row: 10/11;
+    text-align: center;
+    background-color: var(--accent2-color);
+}
+#livelihood-card{
+    grid-column: 2/3;
+    grid-row: 12/13;
     text-align: center;
     background-color: var(--accent2-color);
 }
