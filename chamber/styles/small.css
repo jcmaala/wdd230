@@ -347,6 +347,11 @@ main section img{
     align-self: center;
     align-content: center;
     object-fit: cover;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+#elevation-card img[data-src], #population-card img[data-src], #economy-card img[data-src], #education-card img[data-src], #livelihood-card img[data-src]{
+    filter: blur(0.2em);
 }
 #elevation-card h1, #population-card h1, #economy-card h1, #education-card h1, #livelihood-card h1{
     font-size: 1.5em;
@@ -380,6 +385,17 @@ main section img{
     text-align: center;
     background-color: var(--accent2-color);
 }
+#last-visited{
+    grid-column: 2/3;
+    grid-row: 13;
+    text-align: right;
+    font-family: var(--paragraph-font);
+    font-weight: bold;
+}
+#elevation-card img:hover, #population-card img:hover, #economy-card img:hover, #education-card img:hover, #livelihood-card img:hover{
+    box-shadow: 0 0 7px 7px var(--secondary-color);
+}
+
 
 
 

@@ -113,7 +113,7 @@
     }
     footer{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: auto auto auto auto;
         grid-template-rows: 10px 250px 10px;
         padding-left: 25px;
     }
@@ -165,5 +165,12 @@
     #site-name{
         font-size: 1em;
         margin-right: 0;
+    }
+    #elevation-card img, #population-card img, #economy-card img, #education-card img, #livelihood-card img{
+        width: 50%;
+        height: 50%;
+        align-self: center;
+        align-content: center;
+        object-fit: cover;
     }
 }
