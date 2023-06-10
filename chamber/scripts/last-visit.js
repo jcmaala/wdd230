@@ -1,12 +1,20 @@
 const visitDisp = document.querySelector(".visits");
+const dateNow = Date.now();
+const msToDays = 84600000;
 
-let numberVisits = Number(window.localStorage.getItem("visits-ls"));
+let LastVisit = Number(window.localStorage.getItem("visits-ls")) || dateNow;
 
-if (numberVisits !==0){
-    visitDisp.textContent = numberVisits;
+let milliElapsed = dateNow - LastVisit;
+
+LastVisit = dateNow;
+
+let dayscount = Math.round(milliElapsed / msToDays);
+
+if (milliElapsed !==0){
+    visitDisp.textContent = dayscount;
 } else {
     visitDisp.textContent = "This is your first visit of this site!";
 }
 
-numberVisits++;
-localStorage.setItem("visits-ls", numberVisits);
+
+localStorage.setItem("visits-ls", LastVisit);
