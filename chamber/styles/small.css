@@ -107,7 +107,7 @@ nav{
 .home-grid{
     display: grid;
     grid-template-columns: 10px 1fr 10px;
-    grid-template-rows: 10px 300px 10px 300px 10px 300px 10px auto 10px;
+    grid-template-rows: 10px auto 10px 300px 10px 300px 10px 300px 10px auto 10px;
 }
 
 nav a:hover{
@@ -167,7 +167,7 @@ picture img{
     margin-top: 10px;
     text-shadow: 3px 3px black;
     grid-column: 2/3;
-    grid-row: 2/3;
+    grid-row: 4/5;
 }
 .join{
     background-color: var(--secondary-color);
@@ -277,11 +277,11 @@ main section img{
 }
 #hero-card{
     grid-column: 2/3;
-    grid-row: 2/3;
+    grid-row: 4/5;
 }
 .button-box{
     grid-column: 2/3;
-    grid-row: 2/3;
+    grid-row: 4/5;
     text-align: center;
     margin-top: 250px;
     z-index: 0;
@@ -294,26 +294,28 @@ main section img{
 }
 #event-card{
     grid-column: 2/3;
-    grid-row: 4/5;
+    grid-row: 6/7;
     background-color: var(--accent2-color);
     justify-content: center;
     text-align: center;
 }
 #weather-card{
     grid-column: 2/3;
-    grid-row: 6/7;
+    grid-row: 8/9;
     background-color: var(--accent2-color);
     text-align: center;
+    z-index: 1;
 }
 #newsrel-card{
     grid-column: 2/3;
     grid-row: 8/9;
     background-color: var(--accent2-color);
     text-align: center;
+    display: none;
 }
 #highlight-card{
     grid-column: 2/3;
-    grid-row: 8/9;
+    grid-row: 10/11;
     background-color: var(--accent2-color);
 }
 #join-card{
@@ -464,7 +466,17 @@ form input.submitBtn{
     font-family: var(--paragraph-font);
     font-size: 20px;
 }
-
+.banner {
+    color : #ffffff;
+    font-weight : 500;
+    background-color : var(--primary-color);
+    width : 100%;
+    padding : 1rem 0;
+    padding-top: 5px;
+    text-align : center;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
 
 
 
