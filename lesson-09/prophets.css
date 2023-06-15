@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+h1{
+    color: rgb(102, 28, 170);
+    font-family: Roboto, Arial, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h2{
+    color: rgb(87, 18, 87);
+    font-family: Roboto, Arial, Arial, Helvetica, sans-serif;
+}
+img{
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px 5px gray;
+}
+section{
+    background-color: rgb(124, 131, 224);
+    margin: 0.25rem;
+    padding: 0.35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
