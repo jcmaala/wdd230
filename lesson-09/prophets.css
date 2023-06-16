@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
-.grid{
+.cards{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    box-shadow: 0 0 2px 2px gray;
 }
 h1{
     color: rgb(102, 28, 170);
@@ -14,8 +15,11 @@ h2{
     font-family: Roboto, Arial, Arial, Helvetica, sans-serif;
 }
 img{
-    margin-bottom: 10px;
-    box-shadow: 0 0 5px 5px gray;
+    width: auto;
+	max-width: 325px;
+    box-shadow: 0 0 30px #777;
+    height: 200px;
+    border: 1px solid #333;
 }
 section{
     background-color: rgb(124, 131, 224);
@@ -24,4 +28,8 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+footer{
+    margin-top: 20px;
+    text-align: center;
 }
