@@ -46,8 +46,10 @@
                 <legend>Applicant Information</legend>
                 <label class="top">First Name*<input type="text" name="fname" required></label>
                 <label class="top">Last Name*<input type="text" name="lname" required></label>
-                <label class="top">Title<input type="text" name="title" id="title"></label>
-                <div class="error"></div>
+                <div class="control-title">
+                    <label class="top">Title<input type="text" name="title" id="title"></label>
+                    <small></small>
+                </div>
                 <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com" required></label>
                 <label class="top">Phone Number<input type="tel" name="phone" placeholder="1112223333" required></label>
             </fieldset>
@@ -56,13 +58,48 @@
                 <label class="top">Name of Business*<input type="text" name="bname" required></label>
                 <label class="top">Business Description*<input type="text" name="tbname" required></label>
             </fieldset>
-            <fieldset>
+            <fieldset class="membership-wrapper">
                 <legend>Type of Membership</legend>
                 <label class="sbs"><input type="radio" name="membership" value="np-membership"> NP Membership</label>
                 <label class="sbs"><input type="radio" name="membership" value="bronze-membership"> Bronze Membership</label>
                 <label class="sbs"><input type="radio" name="membership" value="silver-membership"> Silver Membership</label>
                 <label class="sbs"><input type="radio" name="membership" value="gold-membership"> Gold Membership</label>
+                <div class="ben-np hidden">
+                    <h2>NP Membership - No Fee</h2>
+                    <h3>Benefit:</h3>
+                    <ul>
+                        <li>Free financial training</li>
+                    </ul>
+                </div>
+                <div class="ben-bronze hidden">
+                    <h2>Bronze Membership - ₱150.00</h2>
+                    <h3>Benefits:</h3>
+                    <ul>
+                        <li>Free financial training</li>
+                        <li>5% event discounts</li>
+                    </ul>
+                </div>
+                <div class="ben-silver hidden">
+                    <h2>Silver Membership - ₱200.00</h2>
+                    <h3>Benefits:</h3>
+                    <ul>
+                        <li>Free financial training</li>
+                        <li>7% event discounts</li>
+                        <li>Business to be included on our homepage spotlights</li>
+                    </ul>
+                </div>
+                <div class="ben-gold hidden">
+                    <h2>Gold Membership - ₱350.00</h2>
+                    <h3>Benefits:</h3>
+                    <ul>
+                        <li>Free financial training</li>
+                        <li>10% event discounts</li>
+                        <li>Business to be included on our homepage spotlights</li>
+                        <li>Free of charge for opening an account in Bank of Greats</li>
+                    </ul>
+                </div>
             </fieldset>
+            <input type="hidden" name="dateandTime">
             <input type="submit" value="Send Application" class="submitBtn">
 
         </form>

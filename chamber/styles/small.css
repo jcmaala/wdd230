@@ -477,6 +477,26 @@ form input.submitBtn{
     grid-column: 2/3;
     grid-row: 2/3;
 }
+.control-title.error small{
+    visibility: visible;
+    color: red;
+}
+.membership-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+.ben-np, .ben-bronze, .ben-silver, .ben-gold {
+    padding: 2rem 3rem;
+    border: 1px solid #9e9e9e;
+}
+.ben-np ul, .ben-bronze ul, .ben-silver ul, .ben-gold ul {
+    padding-left: 3rem;
+}
+.hidden {
+    display: none;
+}
 
 
 
