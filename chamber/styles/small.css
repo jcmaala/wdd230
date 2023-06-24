@@ -465,6 +465,8 @@ form input.submitBtn{
 .thanks-main{
     font-family: var(--paragraph-font);
     font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 .banner {
     color : #ffffff;
