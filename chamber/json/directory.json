@@ -1,0 +1,76 @@
+{
+    "companies": [
+      {
+        "name": "LBC Express",
+        "address": "LBC Aviation Center, General Aviation Compound, Domestic Airport, Pasay 1301, Philippines",
+        "phone": "+63 2 851 1414",
+        "url": "https://www.lbcexpress.com/",
+        "logo": "images/LBC_Express_2013_Logo.svg.png",
+        "slogan": "We like to move it"
+      },
+      {
+        "name": "Jollibee",
+        "address": "10/F Jollibee Plaza Building, Emerald Ave., Ortigas Center, Pasig City 1600",
+        "phone": "634-1111",
+        "url": "https://www.jollibee.com.ph/",
+        "logo": "images/Jollibee-logo.png",
+        "slogan": "Your happiness is the first!"
+      },
+      {
+        "name": "EO Executive Optical",
+        "address": "Cedar Executive Bldg., #26 Timog Ave. Corner Scout Tobias, Quezon City, Phils",
+        "phone": "0927-039-6941",
+        "url": "https://www.eo-executiveoptical.com/",
+        "logo": "images/EO-Executive-Optical-LOGO.jpg",
+        "slogan": "Love your eyes."
+      },
+      {
+        "name": "Air 21",
+        "address": "AIR21 Merville Warehouse KM 14 West Service Road, South Super Highway, Brgy. Merville Paranaque City,1709 Philippines",
+        "phone": "+63 2 8854 2100",
+        "url": "https://www.air21.com.ph/",
+        "logo": "images/AIR21-LOGO.jpg",
+        "slogan": "I got your package."
+      },
+      {
+        "name": "SM Supermalls",
+        "address": "10th floor, Mall of Asia Arena Annex Building, Coral way cor. J.W. Diokno Blvd., Mall of Asia Complex, Pasay City, Philippines",
+        "phone": "02-8876-1111",
+        "url": "https://www.smsupermalls.com/",
+        "logo": "images/SM_Supermalls_logo_2022.svg.png",
+        "slogan": "Cyber Way!"
+      },
+      {
+        "name": "Bank of the Philippine Islands",
+        "address": "Tower One, Ayala North Exchange 6796 Ayala Avenue corner Salcedo St., Legaspi Village, Makati City 1229",
+        "phone": "(+632) 889-10000",
+        "url": "https://www.bpi.com.ph/personal",
+        "logo": "images/Bank_of_the_Philippine_Islands_logo.svg.png",
+        "slogan": "Let's make it easy"
+      },
+      {
+        "name": "Field Movers",
+        "address": "JC Aquino Ave., Butuan City",
+        "phone": "+999 999 999",
+        "url": "https://fieldmovers.com",
+        "logo": "images/pngtree-cartoon-truck-design-delivery-png-image_6264157 (1).png",
+        "slogan": "We deliver."
+      },
+      {
+        "name": "Code Academia",
+        "address": "Bolton St., Davao City",
+        "phone": "+888 888 888",
+        "url": "https://code-academia.com",
+        "logo": "images/boy-scientific-coding-icon-cartoon-style-vector.jpg",
+        "slogan": "Love coding."
+      },
+      {
+        "name": "JK Flowers",
+        "address": "Flower St., Brgy. Santan, Magallanes, Agusan del Norte",
+        "phone": "+777 777 777",
+        "url": "https://jk-flowers.com",
+        "logo": "images/27-273691_orange-flowers-clip-art-cartoons-clip-art-orange-flower.png",
+        "slogan": "Bloom your day!"
+      }
+    ]
+  }
