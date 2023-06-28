@@ -499,6 +499,94 @@ form input.submitBtn{
 .hidden {
     display: none;
 }
+i{
+    font-size: 45px;
+    padding: 10px 12px;
+    text-align: center;
+}
+.button-view{
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 6rem;
+    margin-top: 20px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.cards h2{
+    font-family: var(--heading-font);
+}
+.cards p, .cards a{
+    font-family: var(--paragraph-font);
+}
+section{
+    background-color: var(--accent2-color);
+    margin: 0.25rem;
+    padding: 0.35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+}
+.list section {
+    margin: 0;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 450px 300px auto;
+    grid-template-rows: auto auto;
+    column-gap: 10px;
+}
+  
+.list section:nth-child(odd) {
+    background-color: var(--secondary-color);
+}
+  
+.list h2 {
+    font-size: 1.5rem;
+    text-align: left;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: var(--heading-font);
+}
+  
+.list .company-logo {
+    display: none;
+}
+.list .address{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: left;
+}
+.list .phone{
+    text-align: left;
+}
+.list a{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: left;
+    font-family: var(--paragraph-font);
+}
+.list p{
+    text-align: center;
+    font-family: var(--paragraph-font);
+}
+.bus-dir{
+    background-color: var(--accent2-color);
+    font-family: var(--heading-font);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
 
 
 
