@@ -521,6 +521,7 @@ i{
 }
 .cards p, .cards a{
     font-family: var(--paragraph-font);
+    color: black;
 }
 section{
     background-color: var(--accent2-color);
@@ -572,6 +573,7 @@ section{
     grid-row: 2/3;
     text-align: left;
     font-family: var(--paragraph-font);
+    color: black;
 }
 .list p{
     text-align: center;
