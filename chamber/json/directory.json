@@ -6,7 +6,8 @@
         "phone": "+63 2 851 1414",
         "url": "https://www.lbcexpress.com/",
         "logo": "images/LBC_Express_2013_Logo.svg.png",
-        "slogan": "We like to move it"
+        "slogan": "We like to move it",
+        "membership": "Gold"
       },
       {
         "name": "Jollibee",
@@ -14,7 +15,8 @@
         "phone": "634-1111",
         "url": "https://www.jollibee.com.ph/",
         "logo": "images/Jollibee-logo.png",
-        "slogan": "Your happiness is the first!"
+        "slogan": "Your happiness is the first!",
+        "membership": "Gold"
       },
       {
         "name": "EO Executive Optical",
@@ -22,7 +24,8 @@
         "phone": "0927-039-6941",
         "url": "https://www.eo-executiveoptical.com/",
         "logo": "images/EO-Executive-Optical-LOGO.jpg",
-        "slogan": "Love your eyes."
+        "slogan": "Love your eyes.",
+        "membership": "Silver"
       },
       {
         "name": "Air 21",
@@ -30,7 +33,8 @@
         "phone": "+63 2 8854 2100",
         "url": "https://www.air21.com.ph/",
         "logo": "images/AIR21-LOGO.jpg",
-        "slogan": "I got your package."
+        "slogan": "I got your package.",
+        "membership": "NP"
       },
       {
         "name": "SM Supermalls",
@@ -38,7 +42,8 @@
         "phone": "02-8876-1111",
         "url": "https://www.smsupermalls.com/",
         "logo": "images/SM_Supermalls_logo_2022.svg.png",
-        "slogan": "Cyber Way!"
+        "slogan": "Cyber Way!",
+        "membership": "Silver"
       },
       {
         "name": "Bank of the Philippine Islands",
@@ -46,7 +51,8 @@
         "phone": "(+632) 889-10000",
         "url": "https://www.bpi.com.ph/personal",
         "logo": "images/Bank_of_the_Philippine_Islands_logo.svg.png",
-        "slogan": "Let's make it easy"
+        "slogan": "Let's make it easy",
+        "membership": "Bronze"
       },
       {
         "name": "Field Movers",
@@ -54,7 +60,8 @@
         "phone": "+999 999 999",
         "url": "https://fieldmovers.com",
         "logo": "images/pngtree-cartoon-truck-design-delivery-png-image_6264157 (1).png",
-        "slogan": "We deliver package."
+        "slogan": "We deliver package.",
+        "membership": "Silver"
       },
       {
         "name": "Code Academia",
@@ -62,7 +69,8 @@
         "phone": "+888 888 888",
         "url": "https://code-academia.com",
         "logo": "images/boy-scientific-coding-icon-cartoon-style-vector.jpg",
-        "slogan": "Love coding."
+        "slogan": "Love coding.",
+        "membership": "NP"
       },
       {
         "name": "JK Flowers",
@@ -70,7 +78,8 @@
         "phone": "+777 777 777",
         "url": "https://jk-flowers.com",
         "logo": "images/27-273691_orange-flowers-clip-art-cartoons-clip-art-orange-flower.png",
-        "slogan": "Bloom your day!"
+        "slogan": "Bloom your day!",
+        "membership": "Bronze"
       }
     ]
   }
