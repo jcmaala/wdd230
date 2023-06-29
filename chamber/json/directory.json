@@ -7,7 +7,7 @@
         "url": "https://www.lbcexpress.com/",
         "logo": "images/img1 (4).png",
         "slogan": "We like to move it",
-        "membership": "Gold"
+        "membership": "Gold Member"
       },
       {
         "name": "Jollibee",
@@ -16,7 +16,7 @@
         "url": "https://www.jollibee.com.ph/",
         "logo": "images/img1 (3).png",
         "slogan": "Your happiness is the first!",
-        "membership": "Gold"
+        "membership": "Gold Member"
       },
       {
         "name": "EO Executive Optical",
@@ -25,7 +25,7 @@
         "url": "https://www.eo-executiveoptical.com/",
         "logo": "images/EO-Executive-Optical-LOGO-min.jpg",
         "slogan": "Love your eyes.",
-        "membership": "Silver"
+        "membership": "Silver Member"
       },
       {
         "name": "Air 21",
@@ -34,7 +34,7 @@
         "url": "https://www.air21.com.ph/",
         "logo": "images/AIR21-LOGO-min.jpg",
         "slogan": "I got your package.",
-        "membership": "NP"
+        "membership": "NP Member"
       },
       {
         "name": "SM Supermalls",
@@ -43,7 +43,7 @@
         "url": "https://www.smsupermalls.com/",
         "logo": "images/img1 (6).png",
         "slogan": "Cyber Way!",
-        "membership": "Silver"
+        "membership": "Silver Member"
       },
       {
         "name": "Bank of the Philippine Islands",
@@ -52,7 +52,7 @@
         "url": "https://www.bpi.com.ph/personal",
         "logo": "images/img1 (2).png",
         "slogan": "Let's make it easy",
-        "membership": "Bronze"
+        "membership": "Bronze Member"
       },
       {
         "name": "Field Movers",
@@ -61,7 +61,7 @@
         "url": "https://fieldmovers.com",
         "logo": "images/img1 (5).png",
         "slogan": "We deliver package.",
-        "membership": "Silver"
+        "membership": "Silver Member"
       },
       {
         "name": "Code Academia",
@@ -70,7 +70,7 @@
         "url": "https://code-academia.com",
         "logo": "images/boy-scientific-coding-icon-cartoon-style-vector-min.jpg",
         "slogan": "Love coding.",
-        "membership": "NP"
+        "membership": "NP Member"
       },
       {
         "name": "JK Flowers",
@@ -79,7 +79,7 @@
         "url": "https://jk-flowers.com",
         "logo": "images/img1 (1).png",
         "slogan": "Bloom your day!",
-        "membership": "Bronze"
+        "membership": "Bronze Member"
       }
     ]
   }
