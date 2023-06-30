@@ -84,6 +84,7 @@
         border: var(--accent1-color);
         background-color: var(--accent1-color);
         color: var(--accent1-color);
+        display: block;
     }
     .home-grid h2{
         text-shadow: none;
