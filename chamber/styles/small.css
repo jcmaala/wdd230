@@ -396,9 +396,6 @@ main section img{
     font-family: var(--paragraph-font);
     font-weight: bold;
 }
-#elevation-card img:hover, #population-card img:hover, #economy-card img:hover, #education-card img:hover, #livelihood-card img:hover{
-    box-shadow: 0 0 7px 7px var(--secondary-color);
-}
 form fieldset{
     margin: 10px 10px;
     border: 2px solid black;
