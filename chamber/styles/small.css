@@ -480,6 +480,7 @@ form input.submitBtn{
     text-align : center;
     grid-column: 2/3;
     grid-row: 2/3;
+    display: block;
 }
 .control-title.error small{
     visibility: visible;
