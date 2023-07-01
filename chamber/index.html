@@ -45,9 +45,9 @@
         </div>
         <div id="hero-card">
             <picture>
-                <source srcset="images/wdd230-org-medium.jpg"  media="(min-width: 502px) and (max-width: 799px)">
-                <source srcset="images/wdd230-org-large.jpg" media="(min-width: 800px)">
-                <img src="images/wdd230-org-small.jpg" alt="People meeting">
+                <source srcset="images/commerce-medium.jpeg"  media="(min-width: 502px) and (max-width: 799px)">
+                <source srcset="images/commerce-large.jpeg" media="(min-width: 800px)">
+                <img src="images/commerce-small.jpeg" alt="People meeting">
             </picture>  
         </div>
         <div class="button-box">
@@ -60,11 +60,14 @@
             <p>Join us for the grand opening of Clarks Restaurant, Monday at 7:00am <a href="#">more info...</a></p>
         </div>
         <div id="weather-card">
-            <h2>Weather</h2>
-            <h3>⛅ 27°F</h3>
-            <p class="weather-border">Partly Cloudy</p>
-            <p id="wind-speed">Wind speed: 2.1 km/h</p>
-            <p id="wind-chill">Wind chill: N/A</p>
+            <h2>Current Temperature</h2>
+            <p class="box"><span id="current-temp"></span>&deg;C</p>
+            <figure class="condi-icon">
+                <img src="" alt="" id="weather-icon" />
+                <figcaption></figcaption>
+            </figure>
+            <p class="wind-speed">Wind Speed: <span id="the-wind"></span>km/h</p>
+            <p class="wind=chill">Wind Chill: <span id="the-chill"></span>N/A</p>
         </div>
         <div id="newsrel-card">
             <h2>News Release</h2>
@@ -117,6 +120,7 @@
     </footer>
     </div>
     <script src="scripts/app.js"></script>
+    <script src="scripts/banner.js"></script>
     <script src="scripts/windchill.js"></script>
 </body>
 </html>
