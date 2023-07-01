@@ -6,19 +6,15 @@ const windSpeed = document.querySelector('#the-wind');
 const apiURL = "https://api.openweathermap.org/data/2.5/weather?lat=8.95&lon=125.53&units=metric&appid=a4110c7f8fb0f9899752f45db399315f";
 
 async function apiFetch(){
-    try{
-        const response = await fetch(apiURL);
-        if (response.ok){
-            const data = await response.json();
-            displayResults(data); 
-        }
-        else{
-            throw Error(await response.text());
-        }
+    const response = await fetch(apiURL);
+    if (response.ok){
+        const data = await response.json();
+        displayResults(data); 
     }
-    catch (error){
-        console.log(error);
+    else{
+        throw Error(await response.text());
     }
+    
 }
 
 function displayResults(weatherData){
