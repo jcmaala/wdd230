@@ -1,0 +1,18 @@
+h1{
+    color: rgb(102, 28, 170);
+    font-family: Roboto, Arial, Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-style: solid black;
+}
+body{
+    text-align: center;
+    background-color: skyblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box, figcaption{
+    font-family: 'Courier New', Courier, monospace;
+}
+footer{
+    margin-top: 20px;
+    text-align: center;
+}
