@@ -200,10 +200,6 @@ picture img{
 #join-card p {
     margin-top: 50px;
 }
-.highlight1 img, .highlight2 img, .highlight3 img{
-    width: 40%;
-    height: 40%;
-}
 .highlight1, .highlight2, .highlight3{
     border-style: double;
     text-align: center;
@@ -592,6 +588,43 @@ i{
 .box{
     font-weight: bold;
 }
+.contact-grid{
+    display: grid;
+    grid-template-columns: 10px auto 10px;
+    grid-template-rows: 10px auto 10px auto 10px auto 10px;
+}
+.contact-card{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: var(--accent2-color);
+    text-align: center;
+}
+.contact-pic{
+   display: none;
+}
+.form-contact{
+    grid-column: 2/3;
+    grid-row: 6/7;
+    background-color: var(--accent2-color);
+}
+.contact-dir{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    background-color: var(--accent2-color);
+    text-align: center;
+}
+.contact-card h1, .contact-card h2, .contact-dir h1, .contact-dir h2{
+    font-family: var(--heading-font);
+}
+.contact-card p, .contact-dir p, .form-contact{
+    font-family: var(--paragraph-font);
+}
+input[type=text], input[type=email], input[type=tel], textarea{
+    width: 100%;
+    object-fit: cover;
+}
+
+
 
 
 

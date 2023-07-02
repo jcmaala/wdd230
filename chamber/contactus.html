@@ -41,8 +41,42 @@
             <a class="header-date"></a>
         </div>
     </header>
-    <main class="home-grid">
-        
+    <main class="contact-grid">
+        <div class="contact-card">
+            <h1>Contact Us</h1>
+            <h2>JC Chamber of Commerce</h2>
+            <p>Montilla blvd, Butuan City<br>(123)345-1234</p>
+            
+        </div>
+        <div class="contact-pic">
+            <img src="images/contact-us.webp" alt="contact phone">
+        </div>
+        <form method="get" action="thanks.html" id="form" class="form-contact">
+            <fieldset>
+                <label class="top">First Name*<input type="text" name="fname" required></label>
+                <label class="top">Last Name*<input type="text" name="lname" required></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Phone Number*<input type="tel" name="phone" placeholder="1112223333" required></label>
+                <label class="top">What questions do you have for the JC Chamber?
+                    <textarea class="top" rows="4" cols="50" name="bdesc" id="bdesc"></textarea>
+                </label>
+            </fieldset>
+            <input type="submit" value="Submit" class="submitBtn">
+        </form>
+        <div class=contact-dir>
+            <h1>General Directory</h1>
+            <h2>JC Maala, CEO</h2>
+            <p>jc_ceo@jccommerce.org</p>
+            <br>
+            <h2>Sponsorship Opportunities</h2>
+            <p>sponsor@jccommerce.org</p>
+            <br>
+            <h2>Media Inquiries</h2>
+            <p>JL Cain</p>
+            <p>Director of Public Relations and Media</p>
+            <p>jl_media@jccommerce.org</p>
+            <p>012-111-1111</p>
+        </div>
     </main>
     <footer>
         <a id="logo_link_footer">
@@ -55,7 +89,5 @@
     </footer>
     </div>
     <script src="scripts/app.js"></script>
-    <script src="scripts/banner.js"></script>
-    <script src="scripts/windchill.js"></script>
 </body>
 </html>
