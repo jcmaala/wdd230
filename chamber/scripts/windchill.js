@@ -26,6 +26,27 @@ function displayResults(weatherData){
     weatherIcon.setAttribute("alt", description);
     captionDesc.innerHTML = description;
     windSpeed.innerHTML = weatherData.wind.speed;
+
+    const windChill = document.querySelector("#the-chill");
+    const speed = windSpeed.innerHTML;
+    const temp = currentTemp.textContent;
+
+    if (temp <= 9 ) { 
+        const formula = 13.12 + 0.6215 * temp;
+        const formula1 = speed**0.16;
+        const formula2 = 11.37 * formula1
+        const formula3 = 0.3965 * temp
+        const formula4 = formula3* formula1;
+        const finFormula = formula - formula2 + formula4;
+        windChill.textContent = `${finFormula.toFixed(2)} ºC`;
+    } 
+    else{
+        windChill.textContent = "N/A";
+    }
 }
 
 apiFetch();
+
+
+
+
