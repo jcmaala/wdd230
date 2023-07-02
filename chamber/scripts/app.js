@@ -25,7 +25,7 @@ printingDateTime();
 
 function printCopyRightYear(){
     const year = date.getFullYear();
-    const theYear = "&#169; year JC Chamber of Commerce | Jean Clyde Maala | WDD 23O Project";
+    const theYear = "&#169; year JC Chamber of Commerce | Jean Clyde Maala | WDD 23O Project <br>Weather data provided by openweathermap.org";
     const newYear = theYear.replace(/year/g, year);
     todayCopy.innerHTML = newYear;
 }
