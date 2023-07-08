@@ -527,6 +527,9 @@ i{
     flex-direction: column;
     align-items: center;
 }
+.company-card a{
+    display: inline-flex;
+}
 .list {
     display: flex;
     flex-direction: column;
@@ -536,9 +539,10 @@ i{
     padding: 1rem;
     margin-bottom: 2rem;
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
-    column-gap: 10px;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto;
+    column-gap: 2px;
+    font-size: small;
 }
   
 .list section:nth-child(odd) {
@@ -547,7 +551,7 @@ i{
   
 .list h2 {
     font-size: 1.5rem;
-    text-align: left;
+    text-align: center;
     margin-top: 0%;
     margin-bottom: 0%;
     font-family: var(--heading-font);
@@ -559,17 +563,20 @@ i{
 .list .address{
     grid-column: 1/2;
     grid-row: 2/3;
-    text-align: left;
+    text-align: center;
 }
 .list .phone{
-    text-align: left;
+    text-align: center;
 }
 .list a{
-    grid-column: 2/3;
-    grid-row: 2/3;
-    text-align: left;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    text-align: center;
     font-family: var(--paragraph-font);
     color: black;
+    display: inline;
+    word-wrap: break-word;
+    white-space: normal;
 }
 .list p{
     text-align: center;

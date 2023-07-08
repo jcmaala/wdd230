@@ -239,4 +239,7 @@
     .contact-card p, .contact-dir p, .form-contact{
         font-family: var(--paragraph-font);
     }
+    .list section{
+        font-size: 15px;
+    }
 }
