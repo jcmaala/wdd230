@@ -75,7 +75,7 @@
     }
     #weather-card h1{
         font-family: var(--heading-font);
-        text-align: justify left;
+        text-align: center;
     }
     #deliver-card{
         grid-column: 4/5;

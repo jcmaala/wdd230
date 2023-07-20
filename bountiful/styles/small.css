@@ -194,8 +194,8 @@ picture img{
 #logo_link{
     padding-top: 5px;
     padding-top: 5px;
-    padding-left: auto;
-    padding-right: auto;
+    padding-left: 5px;
+    padding-right: 5px;
     text-align: center;
     grid-column: 2/3;
 }
@@ -256,12 +256,15 @@ footer{
     grid-column: 2/3;
     grid-row: 2/3;
     background-color: var(--accent2-color);
-    text-align: justify left;
+    text-align: center;
     z-index: 1;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 10px;
     padding-top: 0%;
     display: grid;
+}
+.message{
+    display: none;
 }
 #weather-card figure{
     margin-left: 0;
