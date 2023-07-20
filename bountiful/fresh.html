@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bountiful Foods Website: The Official website developed by JC Maala for Bountiful Foods">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <title>Fresh | Bountiful Foods</title>
+</head>
+<body>
+    <div id="content">
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/logo.webp" alt="Bountiful foods logo">
+        </a>
+        <a id="site-name">Bountiful Foods<br>Deliciously Fresh!</a>
+        <nav>
+            <button id="navButton">&#9776;</button>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </header>
+    <main class="fresh-grid">
+        <h1>Make your own Fruit Drink!</h1>
+        <form method="get" id="form" class="form">
+            <fieldset>
+                <legend>Customer's Information</legend>
+                <label class="top">First Name*<input type="text" name="fname" required></label>
+                <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Phone Number<input type="tel" name="phone" placeholder="1112223333" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Make Your Fruit Drink</legend>
+                <h2>Choose 3 fruits of your choice from the dropdown box:</h2>
+                <div class="fruits-drop">
+                    <select name="first" id="firstlist">
+                        <option value="">--Select First Fruit--</option>
+                    </select>
+                    <select name="second" id="secondlist">
+                        <option value="">--Select Second Fruit--</option>
+                    </select>
+                    <select name="third" id="thirdlist">
+                        <option value="">--Select Third Fruit--</option>
+                    </select>
+                </div>
+                <label class="top">Special Request (if any):
+                    <textarea class="top" rows="4" cols="50" name="bdesc" id="bdesc"></textarea>
+                </label>
+            </fieldset>
+            <input type="submit" value="Submit" class="submitBtn">
+        </form>
+        <div class="order">
+            <h2>Your Order:</h2>
+        </div>
+    </main>
+    <footer>
+        <a id="logo_link_footer">
+            <img class="logo" src="images/logo.webp" alt="JC Chamber of Commerce logo">
+        </a>
+        <p class="contact-address">Bountiful Foods<br>Carlsbad, California, USA</p>
+        <p class="contact-info">info@bountifulfoods.org<br>(123)345-1234<br> <a id="map" href="https://www.google.com/maps/place/carlsbad+california/data=!4m2!3m1!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f?sa=X&ved=2ahUKEwjjxeu985GAAxXK4TgGHZZkDFQQ8gF6BAgVEAA&ved=2ahUKEwjjxeu985GAAxXK4TgGHZZkDFQQ8gF6BAgWEAI">📍 Location Map</a></p>
+        <p class="CopyrightYear">&copy; year Bountiful Foods | Jean Clyde Maala | WDD 23O Project</p>
+        <p class="Date"></p>
+    </footer>
+    </div>
+    <script src="script/app.js"></script>
+    <script src="script/fruits.js"></script>
+</body>
+</html>

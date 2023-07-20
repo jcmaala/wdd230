@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bountiful Foods Website: The Official website developed by JC Maala for Bountiful Foods">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <title>Home | Bountiful Foods</title>
+</head>
+<body>
+    <div id="content">
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/logo.webp" alt="Bountiful foods logo">
+        </a>
+        <a id="site-name">Bountiful Foods<br>Deliciously Fresh!</a>
+        <nav>
+            <button id="navButton">&#9776;</button>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </header>
+    <main class="home-grid">
+        <div id="hero-card">
+            <picture>
+                <source srcset="images/hero-photo-medium.jpg"  media="(min-width: 502px) and (max-width: 799px)">
+                <source srcset="images/hero-photo-large.jpg" media="(min-width: 800px)">
+                <img src="images/placeholder-image.webp" data-src="images/hero-photo.webp" alt="Fruits">
+            </picture>  
+        </div>
+        <div class="message">Get the fresh fruits you deserve!</div>
+        <div id="weather-card">
+            <h1>Weather</h1>
+            <div id="today">
+                <h2>Today</h2>
+                <p class="box"><span id="current-temp"></span>&deg;F</p>
+                <figure class="condi-icon">
+                    <img src="" alt="icon-weather" id="weather-icon" />
+                    <figcaption></figcaption>
+                </figure>
+                <p class="humidity">Humidity: <span id="the-humid"></span>%</p>
+            </div>
+        </div>
+        <div id="juice-card">
+            <h1>Personalize Fruit Drink Mix</h1>
+            <p class="juice1">We have plenty of options for you to mix your favorite fruit and turn it into a drink!
+            </p>
+            <p class="juice2">
+                So far, you've submitted <span id="drinks-num">0</span> of unique fruit drinks! We're thrilled
+                to deliver it to you and taste the freshness of it!
+            </p>
+            <div class="juice-image">
+                <img src="images/placeholder-image.webp" data-src="images/fresh-orange-juice-squeezed-refr.jpg" alt="orange juice">
+            </div>
+            <p class="mm">Make your own fruit drink mix!</p>
+            <div class="make-juice">
+                <a class="juice-btn" href="fresh.html">I want to try!</a>
+            </div>
+        </div>
+        <div id="deliver-card">
+            <h1>Where do we deliver?</h1>
+            <p class="mali1">
+                One of the many places the Bountiful Foods deliver its fresh fruits and fruit drinks
+                is Malibu. Malibu is famous for people who loves surfing and wanting to experience the
+                tropical weather and the summber vibes this coastal city gives.
+            </p>
+            <img src="images/placeholder-image.webp" data-src="images/gettyimages-1341405446.jpg" alt="malibu">
+            <p clas="mali2">
+                Nicknamed "The 'Bu" by surfers and locals, Malibu is famed for its strip of beaches 
+                (incorporated into the city proper in 1991), which includes Big Rock Beach, Broad Beach, 
+                County Line Beach, Dan Blocker Beach, La Costa Beach, Las Flores Beach, Malibu Beach, 
+                Point Dume Beach, Surfrider Beach, Topanga Beach, and Zuma Beach. State parks and beaches 
+                on the Malibu coast include Leo Carrillo State Beach and Park, Malibu Creek State Park, 
+                Point Mugu State Park, and Robert H. Meyer Memorial State Beach, with individual beaches 
+                such as El Matador Beach, El Pescador Beach, and La Piedra Beach. The many parks within the Santa 
+                Monica Mountains National Recreation Area lie along the ridges above the city along with local parks 
+                including Las Flores Creek Park, Legacy Park, Malibu Bluffs Park, and Trancas Canyon Park. source: 
+                <a href="https://en.wikipedia.org/wiki/Malibu,_California">(https://en.wikipedia.org/wiki/Malibu,_California)</a>
+            </p>
+        </div>
+        <div id="directory-card">
+            <h1>Contact Directory</h1>
+            <h2>Joe Roban, Owner</h2>
+            <p>joejuice@bountifulfoods.org</p>
+            <br>
+            <h2>For Deliveries:</h2>
+            <p>sendmefresh@bountifulfoods.org</p>
+            <br>
+            <h2>Customer Care:</h2>
+            <p>customerservice@bountifulfoods.org</p>
+            <br>
+            <h2>Media Inquiries</h2>
+            <p>Elon Must</p>
+            <p>Director of Public Relations and Media</p>
+            <p>elontheg@bountifulfoods.org</p>
+            <p>012-111-1111</p>
+        </div>
+    </main>
+    <footer>
+        <a id="logo_link_footer">
+            <img class="logo" src="images/logo.webp" alt="JC Chamber of Commerce logo">
+        </a>
+        <p class="contact-address">Bountiful Foods<br>Carlsbad, California, USA</p>
+        <p class="contact-info">info@bountifulfoods.org<br>(123)345-1234<br> <a id="map" href="https://www.google.com/maps/place/carlsbad+california/data=!4m2!3m1!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f?sa=X&ved=2ahUKEwjjxeu985GAAxXK4TgGHZZkDFQQ8gF6BAgVEAA&ved=2ahUKEwjjxeu985GAAxXK4TgGHZZkDFQQ8gF6BAgWEAI">📍 Location Map</a></p>
+        <p class="CopyrightYear">&copy; year Bountiful Foods | Jean Clyde Maala | WDD 23O Project</p>
+        <p class="Date"></p>
+    </footer>
+    </div>
+    <script src="script/app.js"></script>
+    <script src="script/lazy.js"></script>
+    <script src="script/weather.js"></script>
+</body>
+</html>
